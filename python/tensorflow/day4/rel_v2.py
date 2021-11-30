@@ -39,6 +39,7 @@ model.add(layers.Dense(64,activation='relu',input_shape=(10000,)))
 model.add(layers.Dense(64,activation='relu'))
 #有64种
 #softmax指输出46种的概率分布
+#前两层不能比46，小太多，如果第二层换为16，精度会下降～8%
 model.add(layers.Dense(46,activation='softmax'))
 model.compile(optimizer='rmsprop',loss='categorical_crossentropy',metrics=['accuracy'])
 
@@ -47,23 +48,27 @@ partial_x_train =x_train[1000:]
 y_val=one_hot_train_labels[:1000]
 partial_y_train = one_hot_train_labels[1000:]
 
-history=model.fit(partial_x_train,partial_y_train,epochs=20,batch_size=512,validation_data=(x_val,y_val))
-# print(history.history.keys())
-#huitu
-#损失 怒额
-import  matplotlib.pyplot as plt
+model.fit(partial_x_train,partial_y_train,epochs=9,batch_size=512,validation_data=(x_val,y_val))
+results=model.evaluate(x_test,one_hot_test_labels)
 
-acc=history.history['accuracy']
-val_acc=history.history['val_accuracy']
-epochs=range(1,len(acc)+1)
-plt.plot(epochs,acc,'bo',label='Training acc')
-plt.plot(epochs,val_acc,'b',label='Validation acc')
-plt.title('Training and validation accuracy')
-plt.legend()
-plt.show()
+print(results)
 
 
-##发现在epoch=9时过拟合，改进
+#预测结果
+predictions =model.predict(x_test)
+print(predictions[0].shape)
+#用int修饰一下
+print(np.sum(predictions[0]).astype(int))
+print(np.argmax(predictions[0]))
 
+##
+#将y转化为整数张量
 
+# y_train =np.array(train_labels)
+# y_test = np.array(test_labels)
+
+##注意改变loss函数
+# model.compile(optimizer='rmsprop',loss='sparse_categorical_crossentropy',metrics=['accuracy'])
+
+##
 exit()
