@@ -84,8 +84,10 @@ print(results)
 #做两个图
 
 import matplotlib.pyplot as plt
-
+plt.switch_backend('TkAgg')
 #损失
+
+plt.interactive(True)
 history_dict= history.history
 loss_values = history_dict['loss']
 val_loss_values= history_dict['val_loss']
@@ -97,6 +99,7 @@ plt.xlabel('Epoches')
 plt.ylabel('Loss')
 plt.legend()
 plt.show()
+plt.savefig("temp.png",dpi=200)
 exit()
 #精度
 # plt.clf()

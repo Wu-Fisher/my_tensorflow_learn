@@ -3,6 +3,7 @@
 ## check GPU
 ​		nvidia -smi 
 ​		nvidia -smi -q
+    check each 10s    watch -n 10 nvidia-smi
  
 
 ## check PID
