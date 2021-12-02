@@ -1,10 +1,15 @@
 # useful tips
 11/30
+
+## ssh
+
+ssh -p 6618 wufisher@10.249.12.98 
+
 ## check GPU
 ​		nvidia -smi 
 ​		nvidia -smi -q
-    check each 10s    watch -n 10 nvidia-smi
- 
+​    check each 10s    watch -n 10 nvidia-smi
+
 
 ## check PID
 
@@ -22,7 +27,7 @@
     ps -eLf 获得线程信息
     ps -eo euser,ruser,suser,fuser,f,comm,label 获得安全信息
     top -b -n1 > /tmp/process.log 进程快照储存到文件里
-    
+
 ### pgrep
     pgrep firefox 查找进程
     pgrep -u (name) 
