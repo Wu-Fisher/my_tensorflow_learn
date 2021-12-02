@@ -72,24 +72,28 @@ import matplotlib.pyplot as plt
 
 ##绘制验证分数，删去前十个差距极大的点
 # plt.switch_backend('agg')
+
+
 def smooth_curve(points,factor=0.9):
     smoothed_points=[]
     for point in points:
-        if smoothed_points:
+        if len(smoothed_points)!=0:
             previous=smoothed_points[-1]
             smoothed_points.append(previous*factor+point*(1-factor))
         else:
             smoothed_points.append(point)
-        return smoothed_points
-
+    return smoothed_points
 
 smooth_mae_history = smooth_curve(average_mae_history[10:])
 
+
+print(len(smooth_mae_history)+1)
 plt.plot(range(1,len(smooth_mae_history)+1),smooth_mae_history,'bo')
 plt.xlabel('Eco')
 plt.ylabel("Va MAE")
-plt.show()
 plt.savefig("temp_v3.png")
+plt.show()
+
 
 # 80轮后过拟合，最后选择最终版本
 exit()
