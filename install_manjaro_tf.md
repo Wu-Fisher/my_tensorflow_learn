@@ -83,7 +83,16 @@ conda deactivate
 conda install -n tensorflow -c conda-forge cudatoolkit
 conda install -n tensorflow -c conda-forge cudnn
 pip install tensorflow_gpu
+
 ```
+
+if you dont have a100 or 3090
+
+```
+conda install -n tensorflow -c conda-forge cudatoolki=10.2
+```
+
+
 
 sure in env tensorflow
 

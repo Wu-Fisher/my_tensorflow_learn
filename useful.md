@@ -40,3 +40,16 @@ ssh -p 6618 wufisher@10.249.12.98
 ### ip
     ifconfig  or  ip addr 查看ip地址
     ping + ip 查看延迟
+
+## ZIP
+
+```
+unzip zipped_file.zip -d unzipped_directory
+```
+
+### read and write
+
+```
+sudo chmod 777 /home/wufisher/dataset_m
+```
+
