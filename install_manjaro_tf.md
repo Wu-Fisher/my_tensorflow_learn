@@ -110,3 +110,18 @@ tf.test.is_gpu_available()
 tf.config.list_physical_devices('GPU')
 ```
 
+## 6.question
+
+no 11.0 cudart
+
+```linux
+sudo find / -name 'libcudart.so.11.0'  
+>>>/opt/anaconda/envs/tensorflow/lib/libcudart.so.11.0
+sudo ldconfig /opt/anaconda/envs/tensorflow/lib/ 
+//手动添加库文件 别忘了在运行 ldconfig -v(好像不用)
+export LIBRARY_PATH=$LIBRARY_PATH:/opt/souanaconda/envs/tensorflow/lib/ 
+AT THE SAME TIME
+ADD IN ./bashrc  ./zshrc
+
+```
+
