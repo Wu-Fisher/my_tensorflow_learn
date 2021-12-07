@@ -12,11 +12,11 @@ tf.config.list_physical_devices('GPU')
 # # a[b]=1
 # # print(a)
 #
-# import matplotlib.pyplot as plt
-# b=np.random.random(100)
-# a=np.random.random(100)
-#
-# plt.plot(a,b)
-# plt.show()
-# exit()
+import matplotlib.pyplot as plt
+b=np.random.random(100)
+a=np.random.random(100)
+
+plt.plot(a,b)
+plt.show()
+exit()
 

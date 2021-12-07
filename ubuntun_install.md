@@ -36,3 +36,11 @@ include /etc/ld.so.conf.d/*.conf
 /home/wufisher/anaconda3/envs/tensorflow/lib/
 
 ```
+
+## chinese input wrong
+    add vmooption
+    （help--VMoption）
+```commandline
+-Drecreate.x11.input.method=true
+```
+    restart pycharm
