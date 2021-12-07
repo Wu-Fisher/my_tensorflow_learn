@@ -5,11 +5,18 @@
 ```
 vim ~/.bashrc
 export PATH=$PATH:【你的安装目录】
+like 
+export PATH=/opt/anaconda/bin:$PATH
+
 source ~/.bashrc
 source /opt/anaconda/bin/activate root 
 ```
 
 do the same  in .zshrc
+
+```
+conda init zsh (bash)
+```
 
 ## 2.change channel_url
 
@@ -55,8 +62,23 @@ custom_channels:
 
   simpleitk: http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 ```
-
-
+update  12.7
+show_channel_urls: true
+ssl_verify: true
+channels:
+  - defaults
+show_channel_urls: true
+default_channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2
+custom_channels:
+  conda-forge: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  msys2: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  bioconda: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  menpo: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 
 ## 3.create environment
 
