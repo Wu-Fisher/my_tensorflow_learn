@@ -63,11 +63,11 @@ custom_channels:
   simpleitk: http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 ```
 update  12.7
+```
 show_channel_urls: true
 ssl_verify: true
 channels:
   - defaults
-show_channel_urls: true
 default_channels:
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
@@ -79,7 +79,7 @@ custom_channels:
   menpo: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
   pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
   simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
-
+```
 ## 3.create environment
 
 ```

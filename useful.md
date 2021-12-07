@@ -41,7 +41,7 @@ ssh -p 6618 wufisher@10.249.12.98
     ifconfig  or  ip addr 查看ip地址
     ping + ip 查看延迟
 
-## ZIP
+### ZIP
 
 ```
 unzip zipped_file.zip -d unzipped_directory
@@ -52,4 +52,8 @@ unzip zipped_file.zip -d unzipped_directory
 ```
 sudo chmod 777 /home/wufisher/dataset_m
 ```
+### HACK
+
+cp ttf to /.local/share/fonts/
+
 
