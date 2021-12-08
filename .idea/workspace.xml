@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="841adf09-0bdb-49d9-83c3-bb9e155b0957" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/python/tensorflow/day8/summary.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/tensorflow/day9/MandD_v3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/tensorflow/day9/MandD_v4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/tensorflow/day9/acc_v3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/tensorflow/day9/acc_v4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/tensorflow/day9/candd_v3.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/tensorflow/day9/candd_v4.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/tensorflow/day9/loss_v3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/tensorflow/day9/loss_v4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/tensorflow/day9/summary.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/tensorflow/day8/acc_v2.png" beforeDir="false" afterPath="$PROJECT_DIR$/python/tensorflow/day8/acc_v2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/tensorflow/day8/candd_v2.h5" beforeDir="false" afterPath="$PROJECT_DIR$/python/tensorflow/day8/candd_v2.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/tensorflow/day8/loss_v2.png" beforeDir="false" afterPath="$PROJECT_DIR$/python/tensorflow/day8/loss_v2.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +50,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.MandD_v4">
     <configuration name="MandD_v2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="my_tensorflow_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/tensorflow/day8" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -64,8 +72,46 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="MandD_v3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my_tensorflow_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/tensorflow/day9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/tensorflow/day9/MandD_v3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MandD_v4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my_tensorflow_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/tensorflow/day9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/tensorflow/day9/MandD_v4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MandD_v4" />
+        <item itemvalue="Python.MandD_v3" />
         <item itemvalue="Python.MandD_v2" />
       </list>
     </recent_temporary>
