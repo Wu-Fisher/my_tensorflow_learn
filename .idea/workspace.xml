@@ -5,25 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="841adf09-0bdb-49d9-83c3-bb9e155b0957" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/my_tensorflow_learn.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/.idea/python.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/tensorflow/day8/acc_v2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/tensorflow/day8/candd_v2.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/tensorflow/day8/loss_v2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/tensorflow/day8/MandD_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/tensorflow/day8/MandD_v2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/tensorflow/day8/test.png" beforeDir="false" afterPath="$PROJECT_DIR$/python/tensorflow/day8/test.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/tensorflow/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/tensorflow/hello.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ubuntun_install.md" beforeDir="false" afterPath="$PROJECT_DIR$/ubuntun_install.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/tensorflow/day8/summary.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/tensorflow/day8/acc_v2.png" beforeDir="false" afterPath="$PROJECT_DIR$/python/tensorflow/day8/acc_v2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/tensorflow/day8/candd_v2.h5" beforeDir="false" afterPath="$PROJECT_DIR$/python/tensorflow/day8/candd_v2.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/tensorflow/day8/loss_v2.png" beforeDir="false" afterPath="$PROJECT_DIR$/python/tensorflow/day8/loss_v2.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
