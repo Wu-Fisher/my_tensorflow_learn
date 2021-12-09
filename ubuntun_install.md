@@ -69,3 +69,11 @@ python -m ipykernel install --user --name tensorflow
 
 to start : bash>>jupyter lab
 ```
+
+## vscode 
+    autocompete
+  ```
+  setting >>Typeshed Paths
+  additem >>~/anaconda3/envs/tensorflow/lib
+
+  ```
