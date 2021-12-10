@@ -5,6 +5,7 @@
 ```linux
     sudo bash .... .sh
 ```
+vim ./bashrc
 export PATH=/opt/anaconda/bin:$PATH
 
 ```
@@ -67,7 +68,7 @@ conda activate tensorflow
 conda install (-n tensorflow) ipykernel
 python -m ipykernel install --user --name tensorflow
 
-to start : bash>>jupyter lab
+to start : bash(tensorflow)>>jupyter lab
 ```
 
 ## vscode 
