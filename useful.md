@@ -52,6 +52,11 @@ unzip zipped_file.zip -d unzipped_directory
 ```
 sudo chmod 777 /home/wufisher/dataset_m
 ```
+
+### conduct
+```
+sudo chmod +x xxx
+```
 ### HACK
 
 cp ttf to /.local/share/fonts/

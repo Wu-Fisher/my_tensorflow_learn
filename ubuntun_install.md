@@ -5,15 +5,16 @@
 ```linux
     sudo bash .... .sh
 ```
+``` bash
 vim ./bashrc
+
 export PATH=/opt/anaconda/bin:$PATH
-
 ```
+```bash
 conda config --set show_channel_urls yes
-
 ```
 
-```
+```bash
 vim ./condarc
 
 channels:
@@ -35,22 +36,39 @@ custom_channels:
 
 
 ## tensorflow
-```
+``` bash
 sudo apt install nvidia-cuda-toolkit
+
 conda create -n tensorflow python=3.9
-conda install -n tensorflow -c conda-forge cudatoolkit
-conda install -n tensorflow -c conda-forge cudnn
+
+conda install -n tensorflow -c 
+
+conda-forge cudatoolkit
+
+conda install -n tensorflow -c 
+
+conda-forge cudnn
+
 pip install tensorflow_gpu
 
 
 ```
 
-## add libcudart 11.0 
+## pytorch
+``` bash
+conda create -n pytorch python=3.9
+
+conda install -n pytorch pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 ```
+
+## add libcudart 11.0 
+``` bash
 sudo vim /etc/ld.so.conf
 
 include /etc/ld.so.conf.d/*.conf
 /home/wufisher/anaconda3/envs/tensorflow/lib/
+
+export LIBRARY_PATH=$LIBRARY_PATH:/home/wufisher/anaconda3/envs/tensorflow/lib/ 
 
 ```
 
@@ -76,5 +94,6 @@ to start : bash(tensorflow)>>jupyter lab
   ```
   setting >>Typeshed Paths
   additem >>~/anaconda3/envs/tensorflow/lib
+  additem >>~/anaconda3/envs/pytorch/lib
 
   ```

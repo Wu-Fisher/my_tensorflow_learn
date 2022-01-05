@@ -5,3 +5,6 @@ console —> %config Completer.use_jedi = False
     interprete data 翻译解释数据
     pare down 减少
     melbourne 墨尔本
+
+### day1.5
+    numeric 数字的
