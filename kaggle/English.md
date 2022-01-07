@@ -8,3 +8,4 @@ console —> %config Completer.use_jedi = False
 
 ### day1.5
     numeric 数字的
+
